@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #0C1821;
+    font-family: inter, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5,162px);
+    grid-template-rows: repeat(2,55px);
+    row-gap: 24px;
+    column-gap: 39px;
+}
+
+nav li{
+    background-color: #324A5F;
+    border-radius: 5px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+}
+
+nav{
+   display: flex;  
+   align-items: center;
+}
+
+.active{
+    color:#F2B400;
+}
+
+header{
+    display: flex;
+    gap: 92px;
+    padding-top: 38px;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.description p{
+    width: 562px;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152.523%;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.apropos{
+    margin-top: 117px;
+    margin-bottom: 119px;
+}
+
+.location{
+    background-image: url(/img/london-brixton-local.png);
+    background-size: cover;
+    height: 389px;
+    margin-top: 25px;
+    width: 1195px;
+}
+
+.noustrouver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+label{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type='submit']{
+    display: flex;
+    width: 269px;
+    padding: 17px 92px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #F2B400;
+    color: white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+textarea[name='message']{
+    width: 1184px;
+    height: 250px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 41px;
+    padding:12px 20px;
+}
+
+input[name='letter']{
+    width: 1184px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+}
+
+.messag{
+    display: flex;
+    flex-direction: column;
+}
+
+.telephone{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub{
+    display:flex;
+    justify-content: center;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-rows: repeat(5,40px);
+    row-gap: 50px;
+}
+
+footer a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 571px;
+    background-color: #324A5F;
+    margin-top: 64px;
+    padding: 67px 88px 67px 88px;
+}

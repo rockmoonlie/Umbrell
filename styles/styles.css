@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #0C1821;
+    font-family: inter, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5,162px);
+    grid-template-rows: repeat(2,55px);
+    row-gap: 24px;
+    column-gap: 39px;
+}
+
+nav li{
+    background-color: #324A5F;
+    border-radius: 5px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+}
+
+nav{
+   display: flex;  
+   align-items: center;
+}
+
+.active{
+    color:#F2B400;
+}
+
+header{
+    display: flex;
+    gap: 92px;
+    padding-top: 38px;
+    justify-content: center;
+}
+
+.titre h1{
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 685px;
+}
+
+.titre h6{
+    color: #324A5F;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 19px 0 14px 0;
+}
+
+.hero img{
+    width: 963px;
+    height: 430px;
+}
+
+.hero{
+    display:flex;
+    justify-content: center;
+}
+
+.text p{
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152.523%;
+    width: 969px; 
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-rows: repeat(5,40px);
+    row-gap: 50px;
+}
+
+footer a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 571px;
+    background-color: #324A5F;
+    margin-top: 64px;
+    padding: 67px 88px 67px 88px;
+}
