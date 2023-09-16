@@ -108,6 +108,7 @@ video{
 .video{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -175,6 +176,7 @@ article{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 footer ul {
@@ -199,4 +201,5 @@ footer{
     background-color: #324A5F;
     margin-top: 64px;
     padding: 67px 88px 67px 88px;
+    flex-wrap: wrap;
 }
