@@ -80,7 +80,7 @@ h2{
 }
 
 .location{
-    background-image: url(/img/london-brixton-local.png);
+    background-image: url(../img/london-brixton-local.png);
     background-size: cover;
     height: 389px;
     margin-top: 25px;
