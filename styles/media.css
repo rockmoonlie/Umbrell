@@ -297,6 +297,14 @@ footer{
         gap: 99px;
     }
 
+    footer div:nth-child(2) ul{
+        grid-template-columns: repeat(2,130px);
+    }
+
+    footer div:nth-child(2) ul a{
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width:1870px) and (min-width:549px){
