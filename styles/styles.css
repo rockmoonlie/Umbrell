@@ -10,7 +10,7 @@ body{
     font-family: inter, sans-serif;
 }
 
-nav ul{
+.navbar2{
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(5,162px);
@@ -19,12 +19,12 @@ nav ul{
     column-gap: 39px;
 }
 
-nav li{
+.navlist{
     background-color: #324A5F;
     border-radius: 5px;
 }
 
-nav li a{
+.navlist a{
     color: white;
     text-decoration: none;
     display: flex;
@@ -34,12 +34,8 @@ nav li a{
     font-size: 25px;
 }
 
-nav{
-   display: flex;  
-   align-items: center;
-}
 
-.active{
+.navbar2 .activ{
     color:#F2B400;
 }
 
@@ -132,4 +128,39 @@ footer{
     background-color: #324A5F;
     margin-top: 64px;
     padding: 67px 88px 67px 88px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:550px) {
+
+    .titre h1{
+        font-size: 1.5625rem;
+        width:311px;
+    }
+
+    .titre h6{
+       font-size: 0.625rem;
+    }
+    
+    .hero img{
+        width: 326px;
+        height: 182px;
+        object-fit: contain;
+    }
+
+    .text span{
+        font-size: 1.875px;
+        font-weight: 700;
+    }
+
+    .text p{
+        font-size: 0.9375rem;
+        width: 326px;
+    }
+
+    footer{
+        gap:99px;
+    }
+
 }
