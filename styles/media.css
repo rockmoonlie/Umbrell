@@ -146,7 +146,7 @@ article p{
     width: 293px;
     height: 146px;
     color: #000;
-    font-family: Inter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -191,7 +191,7 @@ footer ul {
 
 footer a{
     color: #FFF;
-    font-family: Inter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;text-decoration: none;
@@ -206,6 +206,7 @@ footer{
     padding: 67px 88px 67px 88px;
     flex-wrap: wrap;
 }
+
 
 @media screen and (max-width:550px) {
 
@@ -247,7 +248,7 @@ footer{
 
     .video div p{
         color: #FFF;
-        font-family: Inter;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -264,7 +265,7 @@ footer{
 
     .articles article h3{
         color: #000;
-        font-family: Inter;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
@@ -273,7 +274,7 @@ footer{
 
     .articles article p{
         color: #000;
-        font-family: Inter;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -305,10 +306,53 @@ footer{
         font-size: 15px;
     }
 
+    .tablet{
+        display: none;
+    }
+
 }
 
-@media screen and (max-width:1870px) and (min-width:549px){
+@media screen and (max-width:1870px) and (min-width:767px){
     .img1{
         display: none;
     }
+    .hide{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:551px) and (max-width:1200px){
+   .hide{
+    display: block;
+    background-color: transparent;
+   }
+
+   header{
+    margin-bottom: 65px;
+   }
+
+   .articles{
+    row-gap: 32px;
+   }
+
+   .video div video{
+    width:324px;
+    height:207px;
+    margin-top: 70px;
+}
+
+   footer{
+    gap: 99px;
+}
+
+footer div:nth-child(2) ul{
+    grid-template-columns: repeat(2,130px);
+}
+
+footer div:nth-child(2) ul a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 }

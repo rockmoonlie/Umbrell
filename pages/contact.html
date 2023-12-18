@@ -6,6 +6,8 @@
         <link rel="icon" type="image/x-icon" href="../img/logo/dark.png">
         <link rel="stylesheet" href="../styles/contact.css">
         <link rel="stylesheet" href="../styles/header.css">
+        <!-- [Attributes by Finsweet] Disable scrolling -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js"></script>
         <title>Umbrella Corporation</title>
     </head>
     <body>
@@ -17,7 +19,7 @@
             <img class="mobile" src="../img/logo/blue-small.png" width="160" height="170" alt="umbrella corporation">
             <ul class="navbar2">
                 <li class="navlist"><a href="../index.html">Accueil</a></li>
-                <li class="navlist"><a href="###">Media</a></li>
+                <li class="navlist"><a href="media.html">Media</a></li>
                 <li class="navlist"><a class="activ" href="contact.html">Contact</a></li>
                 <li class="navlist"><a href="###">Article 1</a></li>
                 <li class="navlist"><a href="###">Article 1</a></li>
@@ -39,48 +41,51 @@
             </div>
             <!-- le footer reste aussi le même que celui de la page d'accueil -->
         </header>
-        <section class="apropos">
-            <h2>A propos</h2>
-            <div class="description">
-                <img src="../img/technology.jpeg" width="562">
-                <p>Propter omnia si consulere quid omnia facere hac rei tam omnia quid ille tam vellet conficiat 
-                    fortuna conficiat omnia publicae eximia properat senator rei eximia aliud rei illa aliud quid 
-                    aliud quid rei publicae hac vellet illa fortuna oporteret aliud publicae quem ille non publicae 
-                    illa utilitatem debeo frui rei ille eximia publicae non frui quem quid hac frui eximia facere ut publicae 
-                    conficiat frui hac rei publicae eximia illa omnia properat hac utilitatem ille hac tam quem rei quem conficiat properat illa 
-                    oporteret illa publicae vellet non rei facere senator propter non rei rei si facere consulere facere oporteret.</p>
-            </div>
-        </section>
-        <section class="noustrouver">
-            <h2>Notre localisation</h2>
-            <div class="location"></div>
-        </section>
-        <section>
-            <h2>Nous contacter</h2>
-            <form method="get" action="##">
-                <div class="align">
-                    <div class="name">
-                        <label for="naming">Nom</label>
-                        <input type="text" name="letter" id="naming">
-                    </div>
-                    <div class="mail">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="letter" id="email">
-                    </div>
-                    <div class="telephone">
-                        <label for="number">Téléphone</label>
-                        <input type="text" name="letter" id="number">
-                    </div>
+        <main class="screen">
+            <section class="apropos">
+                <h2>A propos</h2>
+                <div class="description">
+                    <img src="../img/technology.jpeg" width="562">
+                    <p>Propter omnia si consulere quid omnia facere hac rei tam omnia quid ille tam vellet conficiat 
+                        fortuna conficiat omnia publicae eximia properat senator rei eximia aliud rei illa aliud quid 
+                        aliud quid rei publicae hac vellet illa fortuna oporteret aliud publicae quem ille non publicae 
+                        illa utilitatem debeo frui rei ille eximia publicae non frui quem quid hac frui eximia facere ut publicae 
+                        conficiat frui hac rei publicae eximia illa omnia properat hac utilitatem ille hac tam quem rei quem conficiat properat illa 
+                        oporteret illa publicae vellet non rei facere senator propter non rei rei si facere consulere facere oporteret.</p>
                 </div>
-                <div class="messag">
-                    <label for="messaging">Message</label>
-                    <textarea name="message" id="messaging" rows="10" maxlength="300"></textarea>
-                    <div class="sub">
-                        <input type="submit" value="ENVOYER">
+            </section>
+            <section class="noustrouver">
+                <h2>Notre localisation</h2>
+                <div class="location"></div>
+            </section>
+            <section>
+                <h2>Nous contacter</h2>
+                <form method="get" action="##">
+                    <div class="align">
+                        <div class="name">
+                            <label for="naming">Nom</label>
+                            <input type="text" name="letter" id="naming">
+                        </div>
+                        <div class="mail">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="letter" id="email">
+                        </div>
+                        <div class="telephone">
+                            <label for="number">Téléphone</label>
+                            <input type="text" name="letter" id="number">
+                        </div>
                     </div>
-                </div>
-            </form>
-        </section>
+                    <div class="messag">
+                        <label for="messaging">Message</label>
+                        <textarea name="message" id="messaging" rows="10" maxlength="300"></textarea>
+                        <div class="sub">
+                            <input type="submit" value="ENVOYER">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        
         <footer>
             <div>
                 <img src="../img/logo/blue.png"  width="160" height="170" alt="logo">
@@ -100,6 +105,7 @@
                 </ul>
             </div>
         </footer> 
+        <!-- [Attributes by Finsweet] Disable scrolling -->
         <script src="../js/script.js"></script>      
     </body>
 </html>

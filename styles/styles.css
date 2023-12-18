@@ -53,7 +53,7 @@ header{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    width: 685px;
+    width: 700px;
 }
 
 .titre h6{
@@ -84,7 +84,7 @@ header{
 
 .text p{
     color: #D9D9D9;
-    font-family: Inter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -115,7 +115,7 @@ footer ul {
 
 footer a{
     color: #FFF;
-    font-family: Inter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;text-decoration: none;
@@ -150,7 +150,7 @@ footer{
     }
 
     .text span{
-        font-size: 1.875px;
+        font-size: 1.875rem;
         font-weight: 700;
     }
 
@@ -169,5 +169,46 @@ footer{
 
     footer div:nth-child(2) ul a{
         font-size: 15px;
+    }
+}
+
+@media  screen and (min-width:551px) and (max-width:1200px){
+
+    .titre h1{
+        font-size:35px;
+        width:656px;
+    }
+
+    .titre h6{
+       font-size:12px;
+    }
+    
+    .hero img{
+        width: 656px;
+        height: 295px;
+        object-fit: cover;
+    }
+
+    .text span{
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .text p{
+        font-size: 17px;
+        width:  665px;
+    }
+
+    footer{
+        gap: 99px;
+    }
+
+    footer div:nth-child(2) ul{
+        grid-template-columns: repeat(2,130px);
+    }
+
+    footer div:nth-child(2) ul a{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
